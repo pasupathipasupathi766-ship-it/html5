@@ -1,17 +1,42 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS3 Multi-Column Layout</title>
+    <title>CSS3 Column Feature</title>
 
-<style>
-/* Write the CSS required for this page here */
-</style>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
 
+        .content {
+            column-count: 3;
+            column-gap: 30px;
+            column-rule: 2px solid black;
+            text-align: justify;
+            padding: 20px;
+        }
+    </style>
 </head>
 
 <body>
-/* Design the page for 3 column web page here */
+
+    <h1>CSS3 Column Feature</h1>
+
+    <div class="content">
+        CSS3 provides a column feature to display text
+        in multiple columns. It is useful for creating
+        newspaper-style layouts on web pages.
+
+        The column-count property specifies the number
+        of columns. The column-gap property sets the
+        space between columns.
+
+        The column-rule property adds a line between
+        columns. These properties make the web page
+        attractive and easy to read.
+    </div>
+
 </body>
 </html>
